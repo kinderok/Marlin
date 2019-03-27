@@ -1141,9 +1141,9 @@
    * but you can override or define them here.
    */
   #define TMC_USE_SW_SPI  //Раскомментировал и прописал пины
-  #define TMC_SW_MOSI 51
-  #define TMC_SW_MISO 50
-  #define TMC_SW_SCK 52
+  #define TMC_SW_MOSI 66
+  #define TMC_SW_MISO 44
+  #define TMC_SW_SCK 64
 
   /**
    * Use Trinamic's ultra quiet stepping mode.

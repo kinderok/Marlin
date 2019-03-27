@@ -509,7 +509,7 @@
       #define BTN_ENC           35
 
       #define SD_DETECT_PIN     49
-      #define KILL_PIN          64
+      #define KILL_PIN          -1 // 64. Отключил т.к. конфликт с SPI TMC2130
 
     #elif ENABLED(MINIPANEL)
 

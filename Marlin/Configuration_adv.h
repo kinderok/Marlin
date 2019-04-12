@@ -1202,7 +1202,7 @@
    * It is advised to set X/Y/Z_HOME_BUMP_MM to 0.
    * M914 X/Y/Z to live tune the setting
    */
-  //#define SENSORLESS_HOMING // TMC2130 only //Включение режима парковки без концевиков (Выключено из-за ошибки)
+  //#define SENSORLESS_HOMING // TMC2130 only //Включение режима парковки без концевиков (Выключено из-за ошибки  #error "SENSORLESS_HOMING requires Z_MAX_ENDSTOP_INVERTING and ENDSTOPPULLUP_ZMAX when homing to Z_MAX.")
 
   #if ENABLED(SENSORLESS_HOMING)
     #define X_HOMING_SENSITIVITY  8
